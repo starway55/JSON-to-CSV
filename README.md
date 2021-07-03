@@ -35,4 +35,4 @@ yarn test
 
 ## Input and Output:
 Input JSON file is included in the code.
-Output CSV files are generated under the root of the project folder, named "images"
+Output CSV files are generated under the root of the project folder, named "images.csv" and "videos.csv"
