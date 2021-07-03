@@ -1,0 +1,26 @@
+{
+  "name": "aremedia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "csv-writer": "^1.6.0",
+    "fast-csv": "^4.3.6",
+    "jest": "^27.0.6",
+    "module-alias": "^2.2.2",
+    "module-alias-jest": "0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@src": "src",
+    "tests": "src/__tests__"
+  },
+  "author": "Yun Zhao",
+  "license": "ISC"
+}
